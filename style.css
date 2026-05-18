@@ -5,6 +5,14 @@
   color: #191919;
 }
 
+.main5 .main5_block2 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  color: #191919;
+  text-decoration: line-through;
+  text-decoration-color: #F6C627;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -36,11 +44,11 @@ header nav p {
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
 }
 .main .main_all {
   width: 80vw;
-  height: 90vh;
+  height: 70vh;
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -49,9 +57,11 @@ header nav p {
 }
 .main .main_all .main_text1 {
   width: 60%;
+  height: 20vh;
 }
 .main .main_all .main_text2 {
   width: 40%;
+  height: 10vh;
   font-size: 1.25rem;
   font-family: "Roboto", sans-serif;
   color: #191919;
@@ -71,9 +81,172 @@ header nav p {
 }
 .main .main_all .main_block1 button {
   border: 0;
-  width: 6vw;
+  width: 7vw;
   height: 6vh;
-  border-radius: 21px;
+  border-radius: 19px;
   color: #FFFFFF;
   background-color: #7352FF;
+}
+
+.main2 {
+  width: 100vw;
+  height: 100vh;
+}
+.main2 .main2_all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main2 .main2_all .main2_all_img1 {
+  width: 100%;
+}
+.main2 .main2_all .main2_all_img2 {
+  position: absolute;
+  top: 1035px;
+}
+
+.main3 {
+  width: 100vw;
+  height: 150vh;
+  background-color: #191919;
+}
+.main3 .main3_all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main3 .main3_all .main3_all_text {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  color: #FFFFFF;
+  height: 45vh;
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  width: 30%;
+  text-align: center;
+}
+.main3 .main3_all .main3_img {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 65vh;
+  gap: 5vw;
+}
+.main3 .main3_all .main3_img_arrow {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+}
+.main3 .main3_all .main3_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main3 .main3_all .main3_footer .main3_footer_p {
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 0.875rem;
+  height: 14vh;
+  display: flex;
+  align-items: end;
+  letter-spacing: 0.56px;
+}
+.main3 .main3_all .main3_footer .main3_footer_img {
+  display: flex;
+  align-items: end;
+  gap: 2vw;
+  height: 6vh;
+}
+
+.main4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65vh;
+  width: 100vw;
+}
+.main4 .main4_all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3vh;
+}
+.main4 .main4_all .main4_p1 {
+  font-family: "Roboto", sans-serif;
+  color: #FF573D;
+  font-style: normal;
+  font-size: 1.25rem;
+}
+.main4 .main4_all .main4_p2 {
+  font-family: "Roboto", sans-serif;
+  color: #191919;
+  font-style: normal;
+  font-size: 2.5rem;
+  font-weight: bold;
+  width: 43%;
+  text-align: center;
+}
+
+.main5 {
+  width: 100vw;
+  height: 150vh;
+  background-color: #F7F2E4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main5 .main5_block1_all {
+  display: flex;
+  align-items: end;
+  height: 15vh;
+}
+.main5 .main5_block1_all .main5_block1 {
+  width: 6vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  background-color: #FFFFFF;
+  border-radius: 64px;
+}
+.main5 .main5_block1_all .main5_block1 p {
+  font-family: "Roboto", sans-serif;
+  color: #7352FF;
+  font-size: 0.875rem;
+  font-style: normal;
+}
+.main5 .main5_p2 {
+  font-family: "Roboto", sans-serif;
+  color: #7352FF;
+  font-size: 1.125rem;
+  font-style: normal;
+  height: 5vh;
+  display: flex;
+  align-items: end;
+}
+.main5 .main5_p3 {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 4rem;
+  font-style: normal;
+  width: 45%;
+  text-align: center;
+  height: 18vh;
+  display: flex;
+  align-items: end;
+}
+.main5 .main5_block2 {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: row;
+  height: 15vh;
+  gap: 4vw;
 }/*# sourceMappingURL=style.css.map */
