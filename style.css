@@ -13,6 +13,20 @@
   text-decoration-color: #F6C627;
 }
 
+.main5 .main5_table .main5_table_all .main5_table_text_grey {
+  font-size: 0.75rem;
+  font-family: "Roboto", sans-serif;
+  color: #616A7E;
+  width: 4vw;
+}
+
+.main5 .main5_table .main5_table_all .main5_table_text2 p, .main5 .main5_table .main5_table_all .main5_table_text1 .main5_table_text_black {
+  font-size: 0.875rem;
+  font-family: "Roboto", sans-serif;
+  color: #191919;
+  width: 4vw;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -249,4 +263,40 @@ header nav p {
   flex-direction: row;
   height: 15vh;
   gap: 4vw;
+}
+.main5 .main5_table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  width: 44vw;
+  height: 45vh;
+  border-radius: 12px;
+}
+.main5 .main5_table .main5_table_all {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  height: 43vh;
+}
+.main5 .main5_table .main5_table_all .main5_table_card {
+  display: flex;
+  flex-direction: row;
+  width: 40vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+}
+.main5 .main5_table .main5_table_all .main5_table_text1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: #191919;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.main5 .main5_table .main5_table_all .main5_table_text2 {
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
 }/*# sourceMappingURL=style.css.map */

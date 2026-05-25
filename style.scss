@@ -236,4 +236,49 @@ header {
             @extend %main5_b2p
         }
     }
+    .main5_table {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        width: 44vw;
+        height: 45vh;
+        border-radius: 12px;
+        .main5_table_all {
+            display: flex;
+            flex-direction: column;
+            width: 40vw;
+            height: 43vh;
+            .main5_table_card {
+                display: flex;
+                flex-direction: row;
+                width: 40vw;
+                height: 10vh;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .main5_table_text1 {
+                font-family: "Roboto", sans-serif;
+                font-size: 1rem;
+                color: #191919;
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                .main5_table_text_black {
+                    @extend %main5_text12
+                }
+            }
+            .main5_table_text2 {
+                display: flex;
+                flex-direction: row;
+                gap: 5vw;
+                p {
+                    @extend %main5_text12
+                }
+            }
+            .main5_table_text_grey {
+                @extend %main5_text1
+            }
+        }
+    }
 }
