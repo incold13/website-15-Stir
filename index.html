@@ -9,7 +9,7 @@
 <body>
     <header>
         <nav>
-            <img src="./assets/Frame.svg" alt="">
+            <img src="./assets/logo.svg" alt="">
             <p>Join our team</p>
         </nav>
     </header>
@@ -33,13 +33,18 @@
         <div class="main3_all">
             <p class="main3_all_text">Trusted by leaders of the creative community</p>
             <div class="main3_img">
-                <img src="./assets/main3_1.png" alt="">
-                <img src="./assets/main3_2.png" alt="">
-                <img src="./assets/main3_3.png" alt="">
+                <img class="slide" src="./assets/main3_1.png" alt="">
+                <img class="slide active" src="./assets/main3_2.png" alt="">
+                <img class="slide" src="./assets/main3_3.png" alt="">
             </div>
             <div class="main3_img_arrow">
-                <img src="./assets/arrow1.svg" alt="">
-                <img src="./assets/arrow2.svg" alt="">
+                <button id="prev">
+                    <img src="./assets/arrow1.svg" alt="">
+                </button>
+            
+                <button id="next">
+                    <img src="./assets/arrow2.svg" alt="">
+                </button>
             </div>
             <div class="main3_footer">
                 <p class="main3_footer_p">Featured in</p>
@@ -185,12 +190,44 @@
             </div>
         </div>
     </section>
-    <section class="main6_js">
-        
+    <section class="main6">
+        <div class="main6_text">
+            <div class="main6_btn">
+                <img src="./assets/pay_5.svg" alt="">
+                <span>Pay</span>
+            </div>
+            <div class="main6_subtitle">Free. Instant. Professional.</div>
+            <div class="main6_title">Payments built for creators.</div>
+        </div>
+        <div class="main6_cards"></div>
+        <div class="main6_bottom">
+            <div class="main6_bottom_left">
+                <div class="main6_bottom_title">
+                    And we’re just <br>
+                    getting started
+                </div>
+
+                <a href="">
+                    Come work with us
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="main6_bottom_right">
+                <div class="main6_bottom_small">Coming soon</div>
+                <div>Brand partnerships</div>
+                <div>Content linking</div>
+                <div>Public payment profiles</div>
+                <div>Scheduled payments</div>
+                <div>Batch sends</div>
+                <div>Send via DM</div>
+            </div>
+        </div>
     </section>
     <section class="main7_splits">
         <div class="main7_splits_all">
             <div class="main7_splits_block1">
+                <p class="main7_otst1"></p>
                 <div class="main7_splits_block1_1">
                     <img src="./assets/main7_1.svg" alt="">
                     <p>Splits</p>
@@ -203,41 +240,163 @@
                 </div>
                 <div class="main7_splits_block1_4">
                     <div class="main7_splits_block1_4_all">
-                        <p class="main7_splits_block1_4_text_main">Split the revenue on a video, a line of merch, or that latest and greatest podcast. The possibilities are endless when you share upside together.</p>
                         <div class="main7_splits_block1_4_social">
-                            <p class="main7_splits_block1_4_text_social">Supported platforms</p>
-                            <div>
-                                <img src="" alt="">
-                                <p>YouTube</p>
-                            </div>
-                            <div>
-                                <img src="" alt="">
-                                <p>Patreon</p>
-                            </div>
-                            <div>
-                                <img src="" alt="">
-                                <p>Shopify</p>
-                            </div>
-                            <div>
-                                <img src="" alt="">
-                                <p>Anchor</p>
-                            </div>
-                            <div>
-                                <img src="" alt="">
-                                <p>Stripe</p>
-                            </div>
-                            <div>
-                                <img src="" alt="">
-                                <p>OnlyFans</p>
+                            <p class="main7_splits_block1_4_text_main">Split the revenue on a video, a line of merch, or that latest and greatest podcast. The possibilities are endless when you share upside together.</p>
+                            <p class="main7_splits_block1_4_text_social">SUPPORTED PLATFORMS</p>
+                            <div class="main7_splits_block1_card_all">
+                                <div class="main7_splits_block1_4_card">
+                                    <img src="./assets/main7_4.svg" alt="">
+                                    <p class="main7_splits_block1_4_text_card">YouTube</p>
+                                </div>
+                                <div class="main7_splits_block1_4_card">
+                                    <img src="./assets/main7_5.svg" alt="">
+                                    <p class="main7_splits_block1_4_text_card">Patreon</p>
+                                </div>
+                                <div class="main7_splits_block1_4_card">
+                                    <img src="./assets/main7_6.svg" alt="">
+                                    <p class="main7_splits_block1_4_text_card">Shopify</p>
+                                </div>
+                                <div class="main7_splits_block1_4_card">
+                                    <img src="./assets/main7_7.svg" alt="">
+                                    <p class="main7_splits_block1_4_text_card">Anchor</p>
+                                </div>
+                                <div class="main7_splits_block1_4_card">
+                                    <img src="./assets/main7_8.svg" alt="">
+                                    <p class="main7_splits_block1_4_text_card">Stripe</p>
+                                </div>
+                                <div class="main7_splits_block1_4_card">
+                                    <img src="./assets/main7_9.svg" alt="">
+                                    <p class="main7_splits_block1_4_text_card">OnlyFans</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div>
-                        <img src="" alt="">
+                        <div>
+                            <img src="./assets/main7_10.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="main8">
+        <div class="main8_all">
+            <p class="main8_otst"></p>
+            <div class="main8_block1">
+                <img src="./assets/main8_1.svg" alt="">
+                <p class="main8_block1_p1">Collectives</p>
+            </div>
+            <p class="main8_block2">Co-opportunity Knocks</p>
+            <p class="main8_block3">Collectives: The future of collab culture</p>
+            <p class="main8_block4">Coming later this year</p>
+            <img src="./assets/main8_2.jpg" alt="">
+        </div>
+    </section>
+    <section class="main9">
+        <div class="main9_all">
+            <p class="main9_p1">We've got something for everyone: for maximum effectiveness, set up your entire team on Stir.</p>
+            <div class="main9_block1">
+                <img src="./assets/main9.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="sect10">
+        <div class="sect10_all">
+            <div class="sect10_block1">
+                <img src="./assets/main10_1.png" alt="">
+            </div>
+            <div class="sect10_block2">
+                <p class="sect10_block2_p1">Serious about security</p>
+                <p class="sect10_block2_p2">Our top priority is keeping your data safe and secure.</p>
+                <div class="sect10_card_all">
+                    <div class="sect10_card">
+                        <img src="./assets/main10_2.svg" alt="">
+                        <p>We will never (ever) share your data</p>
+                    </div>
+                    <div class="sect10_card">
+                        <img src="./assets/main10_2.svg" alt="">
+                        <p>Secured by TLS (SSL) 256-bit bank-level encryption</p>
+                    </div>
+                    <div class="sect10_card">
+                        <img src="./assets/main10_2.svg" alt="">
+                        <p>We’re a multi-creator network, not an MCN</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sect11">
+        <div class="sect11_all">
+            <p class="sect11_p1">Less Administration, More Imagination</p>
+            <p class="sect11_p2">Get your business up and running on Stir</p>
+            <div class="sect11_card_all">
+                <div class="sect11_card">
+                    <img src="./assets/sect11_1.svg" alt="">
+                    <p class="sect11_card_p1">Home</p>
+                    <p class="sect11_card_p2">Everything your creator business needs collected in one easy-to-use place.</p>
+                </div>
+                <div class="sect11_card">
+                    <img src="./assets/sect11_2.svg" alt="">
+                    <p class="sect11_card_p1">Pay</p>
+                    <p class="sect11_card_p2">Free, fast, and professional. Modern payments for your modern business.</p>
+                </div>
+                <div class="sect11_card">
+                    <img src="./assets/sect11_3.svg" alt="">
+                    <p class="sect11_card_p1">Splits</p>
+                    <p class="sect11_card_p2">Compensate collaborators with three clicks. Creativity is better with aligned incentives.</p>
+                </div>
+                <div class="sect11_card">
+                    <img src="./assets/sect11_4.svg" alt="">
+                    <p class="sect11_card_p1">Collectives</p>
+                    <p class="sect11_card_p2">Spin up joint ventures in seconds. It's multiplayer mode for your business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sect12">
+        <div class="sect12_all">
+            <div class="sect12_block1">
+                <div class="sect12_block1_start">
+                    <p>Drops</p>
+                </div>
+                <p class="sect12_block1_p1">We're creators too</p>
+                <p class="sect12_block1_p2">Occasionally, we produce one-off projects that are in pursuit of our mission of enabling creators to run great businesses, own their content, and build a direct relationship with their audience.</p>
+                <button>Enter your email</button>
+            </div>
+            <div class="sect12_block2">
+                <img src="./assets/sect12_2.jpg" alt="">
+                <img src="./assets/sect12_3.jpg" alt="">
+                <img src="./assets/sect12_4.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_all">
+            <div class="footer_block1">
+                <div class="footer_block1_1">
+                    <p>Cheers to a more imaginative world.</p>
+                    <button>Subscribe for updates</button>
+                </div>
+                <div class="footer_block1_2">
+                    <div class="footer_block1_2_one">
+                        <img src="./assets/footer_1.svg" alt="">
+                        <p>Instagram</p>
+                    </div>
+                    <div class="footer_block1_2_one">
+                        <img src="./assets/footer_2.svg" alt="">
+                        <p>Twitter</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_block2">
+                <img src="./assets/footer_3.svg" width="104px" height="45px" alt="">
+                <div class="footer_block2_p">
+                    <p class="footer_block2_p1">Terms</p>
+                    <p class="footer_block2_p1">Privacy</p>
+                    <p class="footer_block2_p2">© Stir 2021</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="java.js"></script>
 </body>
 </html>
